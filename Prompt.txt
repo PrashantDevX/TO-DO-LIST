@@ -1,0 +1,53 @@
+Build a polished, responsive **To-Do List web app** with a modern, minimal UI.
+
+### Core Features
+
+- Add, edit, delete, and complete tasks.
+- Task fields: title, description, priority, due date, category/tag.
+- Search, filter, and sort tasks.
+- Views: All, Active, Completed, Overdue.
+- Task counts and completion progress.
+- Drag-and-drop task ordering.
+- Dark/light mode.
+
+### Data & Persistence
+
+- Store all data locally using **IndexedDB** (preferred) with a clean storage layer.
+- App must work fully offline.
+- Persist tasks, settings, theme, filters, and ordering after refresh/restart.
+- Handle empty/corrupted local data gracefully.
+
+### Export / Import
+
+- Export tasks as **JSON, CSV, and TXT**.
+- Import tasks from JSON/CSV with validation and duplicate handling.
+- Provide clear success/error feedback.
+- Use browser APIs only; no backend/database server.
+
+### UI/UX
+
+- Clean modern dashboard-style frontend.
+- Responsive for mobile, tablet, and desktop.
+- Accessible buttons, forms, keyboard navigation, and proper labels.
+- Smooth but subtle animations.
+- Confirmation for destructive actions.
+- Toast notifications for important actions.
+- Empty states and loading states.
+- Avoid unnecessary UI clutter.
+
+### Tech
+Use **React + Vite + Tailwind CSS**.
+Use reusable components and clean folder structure.
+Keep state management simple unless complexity requires otherwise.
+Use Lucide icons.
+No authentication, backend, external database, or unnecessary dependencies.
+
+### Quality
+
+- Production-quality code.
+- Mobile-first responsive design.
+- No placeholder functionality.
+- Validate all inputs.
+- Prevent data loss during imports/exports.
+- Keep the implementation simple, fast, and maintainable.
+- After implementation, test every major feature and fix errors.
